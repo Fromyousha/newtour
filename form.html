@@ -1,0 +1,40 @@
+<form>
+    <p> Name <input type="text" name="username" placeholder="Name as per Your CNIC" maxlength="20"/>
+    <br/>CNIC <input type="numbers" name="CNIC" placeholder="CNIC" maxlength="14"/>
+    <br/> Please select your Gender<br/> <input type="radio" name="gender" value="male"/>Male
+    <input type="radio" name="gender" value="female"/> Female<br/><br/>
+<label for="username"> Date of Birth :
+    <input type="date" name="birth"/>
+</label>
+<br/> <fieldset>
+<legend> Your Contact details </legend><br/>
+    <label> Email  </label><input type="email" name="email" placeholder="abc123@gmail.com" required="email">
+    <br/><label> Mobile Number  </label><input type="mobile number" name="mobile number" placeholder="03001234567" required="mobile number">
+</fieldset></p>
+<br/> <p> Please select your flight category <br/><input type="checkbox" value="Buisnessclass"/> Buisnessclass
+      <input type="checkbox" value="VIP"/> VIP
+      <input type="checkbox" value="Economy"/> Economy
+      <br/> Tour Schedule you want to proceed with <br/>
+      <br/> <select name="tour schedule">
+      <option value="schedule mentioned">Schedule mentioned</option>
+      <option value="your prescribed schedule">your prescribed schedule</option>
+    </select>
+    <br/> Please select your payment method <br/>
+      <br/> <select name="payment method">
+      <option value="master or visa card">master or visa card</option>
+      <option value="Payorder">Payorder</option>
+      <option value="Cash">Cash</option>
+      <option value="Online">Online</option></select>
+      <br/><p>Please select your Hotel category </p> <input type="radio" value="5 star"/> 5 star
+      <br/> <input type="radio" value="Airconditioned"/> Airconditioned
+      <br/><input type="radio" value="Local"/> Local <br/>
+    Please select the activities you want to be added in your tour program <br/>
+    <input type="checkbox" value="HorseRiding"/> Horse Riding<br/>
+    <input type="checkbox" value="Hiking"/> Hiking<br/>
+    <input type="checkbox" value="Camping"/> Camping<br/>
+    <input type="checkbox" value="Hunting"/> Hunting <br/>
+    <p> Anything more you required to be added in your Tour program You can write to us 
+    <br/><textarea name="additional requirements" cols="30" rows="4">Enter your furhter requirements</textarea></p>
+</p>
+<br/><input type="submit" name="submit" value="submit"/>
+</form>

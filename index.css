@@ -1,0 +1,19 @@
+h1 { color: black;
+    font-family: sans-serif;
+    text-shadow: 2px 2px grey;
+}
+html {color: black;}
+/* body { background-color:gray;} */
+h2 {color:maroon;}
+body { background-color: EBE8E2;}
+.heading_design {
+    background-color: rgb(157, 203, 221);
+    text-align: center;
+   padding: 2px;
+   margin-top: 4px;
+   border-radius: 20px;
+}
+h3{ color: rgb(119, 50, 50);}
+.searchbar { 
+    border-radius: 10px; width: 300px; height: 50px;
+}
